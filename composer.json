@@ -1,9 +1,14 @@
 {
-    "name": "authorizenet/authorizenet",
+    "name": "anthonypower/authorizenet",
     "type": "library",
-	"version": "2.0.2",
-    "description": "Official PHP SDK for Authorize.Net",
-    "keywords": ["authorizenet", "authorize.net", "payment", "ecommerce"],
+    "version": "2.0.2",
+    "description": "(Un)Official PHP SDK for Authorize.Net",
+    "keywords": [
+        "authorizenet",
+        "authorize.net",
+        "payment",
+        "ecommerce"
+    ],
     "license": "proprietary",
     "homepage": "http://developer.authorize.net",
     "require": {
@@ -12,9 +17,13 @@
         "ext-json": "*"
     },
     "autoload": {
-        "classmap": ["lib"]
+        "classmap": [
+            "lib"
+        ]
     },
     "autoload-dev": {
-        "classmap": ["tests"]
-    }   
+        "classmap": [
+            "tests"
+        ]
+    }
 }
